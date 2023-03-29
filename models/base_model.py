@@ -52,7 +52,7 @@ class BaseModel:
         return '[{}] ({}) {}'.format(
                 type(self).__name__, self.id, self.__dict__)
 
-    dev __repr__(self):
+    def __repr__(self):
         """return a string representation
         """
         return self.__str__()
